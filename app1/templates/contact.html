@@ -1,0 +1,54 @@
+ {% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--list-->
+    <ol type="1" start="5">
+        <li>List1</li>
+        <ol>
+            <li>Sub1</li>
+            <li>Sub2</li>
+        </ol>
+        <li>List2</li>
+        <li>List3</li>
+    </ol>
+
+    <ul type="disc">
+        <li>List1</li>
+        <ol>
+            <li>Sub1</li>
+            <li>Sub2</li>
+        </ol>
+        <li>List2</li>
+        <li>List3</li>
+    </ul>
+
+    <dl>
+        <dt>Title</dt>
+        <dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt repudiandae illum quasi fuga ipsum itaque veritatis. Eum maxime sit omnis eos illo fugiat corporis, est doloribus eveniet placeat accusantium! Autem?</dd>
+        <dt>Title</dt>
+        <dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt repudiandae illum quasi fuga ipsum itaque veritatis. Eum maxime sit omnis eos illo fugiat corporis, est doloribus eveniet placeat accusantium! Autem?</dd>
+    </dl>
+    <!--//list-->
+
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nWst87nQmZQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.1749369304803!2d75.83139681412005!3d11.248538253379188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65bbe359ced81%3A0xc17c381f72b87e02!2sHiLITE%20Mall!5e0!3m2!1sen!2sin!4v1614831252032!5m2!1sen!2sin"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    <img src="{% static 'as.jpg' %}" alt="">
+    <video height="500" width="500" controls src="{% static 'Mukkathe Penne _ Official Video Song HD _ Ennu Ninte Moideen _ Prithviraj _ Parv_Full-HD.mp4' %}"></video>
+
+</body>
+
+</html>
